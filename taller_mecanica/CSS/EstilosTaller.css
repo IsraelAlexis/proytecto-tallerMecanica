@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #3a3d47;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contenedor{
+    width: 1200px;
+    background-color: antiquewhite;
+    margin: 20px auto;
+}
+header{
+    background-color: #1551a1;
+    overflow: hidden;
+}
+.logo{
+    margin: 15px 40px;
+    float: left;
+}
+.imglogo{
+    width: 300px;
+}
+.menu{
+float: right;
+margin: 40px 95px;
+}
+.lista{
+list-style: none;
+}
+.item{
+    float: left;
+    border: 1px solid white;
+    padding: 10px;
+}
+.link{
+  text-decoration: none;  
+  color: white;
+}
+.item:hover{
+    background-color: rgb(181, 181, 242);
+    padding: 10px 13px;
+}
+.link:hover{
+    color: black;
+}
+.imgcolaborador{
+    width: 100%;
+    height: 100%;
+}
+section{
+    overflow: hidden;
+    background-color: white;
+}
+.titulo{
+     color: #ff7600;
+     font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 270px;
+}
+.card{
+    float: left;
+    width: 31%;
+    margin: 5px 12px;
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.encabezado{
+    background-color:#1551a1
+}
+h1{
+    color: white;
+    margin-left: 25%;
+    padding: 10px;
+}
+.imagen:hover{
+    opacity: 0.7;
+}
+.contenido{
+    background-color: white;
+}
+p{
+    text-align: justify;
+    padding: 10px;
+}
+button{
+    margin-top: 10px;
+    margin-left: 37%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #1551a1;
+    border: 2px solid black;
+    color: white;
+    border-radius: 5px;
+}
+button:hover{
+    opacity: 0.7;
+    padding: 10px 14px;
+    color: rgb(170, 5, 5);
+    cursor:pointer;
+    font-weight: 900;
+}
+footer{
+    background-color: #124383;
+    overflow: hidden;
+}
+.footerizq{
+    width: 40%;
+    margin: 20px 40px;
+    float: left;
+}
+.logopie{
+    margin-left: 100px;
+}
+.pfooter{
+    color: white;
+    font-size: 10px;
+}
+.footerder{
+    float: right;
+    margin-right: 20%;
+    margin-top: 2%;
+}
+.siguenos{
+    color: white;
+    text-align: center;
+    font-size: 15px;   
+}
+.redes:hover{
+    width: 50px;
+    opacity: 0.7;
+    rotate: 30deg;
+    transition: 0.20s;   
+}
+
+
+
+
